@@ -1,0 +1,15 @@
+<p>oi angular {{name}}</p>
+
+<button (click)="button()">evento de click</button>
+<button (click)="eventClick($event)">evento de click recebendo o evento</button>
+
+@if (showTitle) {
+  <h1>O meu titulo eh esse</h1>
+} @else {
+  <p>nao mostrou o titulo</p>
+}
+
+
+@for (item of renderLoop; track item) {
+  <p>{{item}}</p>
+}
