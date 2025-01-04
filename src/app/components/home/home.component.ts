@@ -1,9 +1,10 @@
 import { Component, inject } from '@angular/core';
 import { EnviaFormularioService } from '../../services/envia-formulario.service';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

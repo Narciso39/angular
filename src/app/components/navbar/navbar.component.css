@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 20px;
+}
