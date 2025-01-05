@@ -1,3 +1,3 @@
 export default {
-  heroImg: 'assets/imgs/image.png',
+  heroImg: 'assets/imgs/Image.png',
 };
