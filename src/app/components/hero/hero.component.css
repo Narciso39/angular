@@ -1,0 +1,17 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.text-content {
+ max-width: 560px;
+ height: 346px;
+ padding: 20px;
+}
+.cta-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
