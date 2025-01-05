@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button',
@@ -12,4 +12,7 @@ export class ButtonComponent {
   link() {
     console.log("algo")
   }
+
+  @Input()
+   btnType: string = "";
 }

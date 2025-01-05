@@ -1,11 +1,14 @@
 <header>
+  <section class="header">
   <div>
     <h1>Logo</h1>
   </div>
 
   <app-navbar></app-navbar>
-  <div>
-    <app-button></app-button>
-    <app-button></app-button>
+  <div class="header-btn">
+    <app-button [btnType]="'primary'"></app-button>
+    <app-button [btnType]="'secundary'"></app-button>
   </div>
+</section>
+  <div class="header-line"></div>
 </header>
