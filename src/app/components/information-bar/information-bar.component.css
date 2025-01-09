@@ -1,0 +1,25 @@
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  gap: 60px;
+}
+
+
+.cards-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 364px;
+  width: 100%;
+  height: 184px;
+  align-items: center;
+  padding: 30px;
+}
+

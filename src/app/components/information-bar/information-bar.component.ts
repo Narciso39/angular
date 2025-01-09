@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import informationBarIcon from '../../../imports/informationBar.import';
 @Component({
   selector: 'app-information-bar',
   imports: [],
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './information-bar.component.css'
 })
 export class InformationBarComponent {
-
+  icon = informationBarIcon.icon;
 }
