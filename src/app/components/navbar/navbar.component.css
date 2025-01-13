@@ -8,6 +8,7 @@ nav {
   flex-direction: row;
   gap: 40px;
   align-items: center;
+  list-style-type: none;
 }
 
 .nav-link {

@@ -16,3 +16,23 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+
+.title-card {
+  font-size: 60px;
+}
+
+
+.ul {
+  display: block;
+  list-style-type: disc;
+}
+
+.out {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-top: 100px;
+  justify-content: center;
+  gap: 60px;
+}
