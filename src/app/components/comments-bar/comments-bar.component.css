@@ -1,0 +1,23 @@
+.comments-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+
+.title-comments {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+  /* padding: ; */
+}
+
+.title-comments h3 {
+  font-size: 50px;
+}
+
+/* .title-comments p {
+} */
