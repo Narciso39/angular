@@ -1,13 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* 
+@import '~normalize.css'; */
+
 
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-ul {
+/* ul { */
   /* list-style-type: none; */
-}
+/* } */
 
 a {
   text-decoration: none;
@@ -16,6 +19,6 @@ a {
 
 
 main {
-  margin-top: 70px; /* Adiciona espaço abaixo do header fixo */
-  padding: 20px; /* Espaçamento interno para o conteúdo principal */
+  margin-top: 70px;
+  padding: 20px;
 }

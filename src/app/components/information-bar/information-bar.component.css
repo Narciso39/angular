@@ -23,3 +23,15 @@
   padding: 30px;
 }
 
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  max-width: 35%;
+  text-align: center;
+  /* width: 80%; */
+}
+.title-info {
+  font-size: 50px;
+}
